@@ -1,0 +1,57 @@
+.faq .accordion-collapse {
+    border: 0;
+    width: 100%;
+  }
+  
+  .faq .accordion-button {
+    padding: 15px 15px 20px 0;
+    font-weight: 600;
+    border: 0;
+    font-size: 18px;
+    color: #444444;
+    text-align: left;
+  }
+  
+  .faq .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .faq .accordion-button:not(.collapsed) {
+    background: none;
+    color: #091F5B;
+    border-bottom: 0;
+  }
+  
+  .faq .accordion-body {
+    padding: 0 0 25px 0;
+    border: 0;
+  }
+
+  .accordion-body{
+    width: 100%;
+    
+  }
+
+  
+.section-header {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #091F5B;
+    text-transform: uppercase;
+  }
+  
+  .section-header p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #031441;
+  }

@@ -1,0 +1,102 @@
+.profile-container{
+   width: 100%;
+}
+.profile-img input{
+    width: 40px;
+    height: 40px;
+}
+.app_profile-account-box{
+    width: 400px;
+    height: 100px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.app_profile-account-box-image-profile{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #111111;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111111;
+}
+.app_profile-account-box-text {
+    margin-top:30px;
+    color: #111111;
+}
+.app_profile-account-box-text p {
+    margin-top: -10px;
+}
+.app_profile-account-box-btn button{
+    /* border:1px solid #111111; */
+    background: #091F5B;
+    color: white;
+}
+.app_profile-account-box-btn button:hover{
+    border: 1px solid #091F5B;
+    color: #091F5B;
+}
+.change-btn{
+    width: 100%;
+}
+.change-btn button{
+    width: 100%;
+    background-color: #091F5B;
+    color: #fff;
+
+}
+.change-btn button:hover{
+    border: 1px solid #091F5B;
+    color: #091F5B;
+}
+.app_profile-account-details-title{
+    color:#091F5B ;
+    font-weight: bold ;
+}
+/* .tab-main{
+   margin-top: 20px;
+}
+
+.tab-item{
+    margin-top:20px;
+    color: red;
+} */
+
+.app_profile-account-details{
+    width: 400px;
+  
+    
+}
+.app_profile-contact-title{
+    color:#091F5B ;
+    font-weight: bold ;
+    
+}
+.app_profile-contact{
+    width: 400px;
+}
+.emergency-btn button{
+    width: 100%;
+    background-color: #091F5B;
+    color: #fff;
+
+}
+.emergency-btn button:hover{
+    border: 1px solid #091F5B;
+    color: #091F5B;
+}
+
+@media   (max-width:450px){
+    .app_profile-account-details{
+        width: 350px;
+    }
+    .app_profile-account-box{
+        width: 350px;
+    }
+}

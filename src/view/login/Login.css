@@ -1,0 +1,137 @@
+.login-main{
+   overflow: hidden;
+   
+}
+.login-left{
+    background-image:url(../../assets/image/login-image.png);
+    height:100vh;
+   
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   padding: 40px 100px ;
+}
+.login-right{
+    position: relative;
+    padding: 60px 120px 0px 120px;
+    background: #fff;
+
+}
+
+@media (max-width: 762px) { 
+    .col-sm-none{
+        display: none;
+    }
+
+    .login-right{
+        padding: 60px 80px 0px 80px;
+    }
+    
+   
+}
+@media (max-width: 970px) { 
+    .login-left{
+        padding: 40px 50px;
+    }
+    .login-right{
+        padding: 60px 60px 0px 60px;
+    }
+}
+
+.login-logo-image img{
+    width: 50px;
+}
+.login-logo-image{
+    display: flex;
+    gap: 10px;
+}
+.login-logo-image h2{
+    font-weight: bold;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+.login-greeting{
+    margin: 140px auto;
+
+    
+}
+.login-greeting h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    
+    
+}
+
+
+.login-heading{
+    margin-bottom: 40px;
+}
+.login-heading h3{
+    font-weight:bold;
+    /* text-align: center; */
+    font-size: 30px;
+}
+
+.login-heading p{
+    /* text-align: center; */
+    color:  #00000080;
+    
+
+}
+
+.small-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.small-text .forget-link a{
+    text-decoration: none;
+    color:  #00000080;
+    
+}
+.btn-login{
+    width: 100%;
+}
+.btn-login button{
+    width: 100%;
+    margin-top: 30px;
+    background: #081F5C;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+.btn-login button:hover{
+    background: #fff;
+    border: 1px solid #081F5C;
+    color: #081F5C;
+}
+.new-user{
+    display: flex;
+    gap: 2px;
+    margin-top: 20px;
+}
+.new-user p{
+    color:  #00000080;
+}
+
+.new-user a{
+    color: #081F5C;
+    text-decoration: none;
+}
+
+.footer-text p{
+   text-align: center;
+   color: #081F5C;
+   font-weight: bold;
+   margin-top: 50px;
+}
